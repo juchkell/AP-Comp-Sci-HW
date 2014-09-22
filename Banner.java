@@ -28,7 +28,7 @@ private int xPos, yPos;  // hold the coordinates of the banner
   public void paint(Graphics g)
   {
     super.paint(g);
-    g.fillRect(20,40, xPos, yPos);
+    g.fillRect(20,40, xPos, yPos); //You got the xPos, yPos reversed with rectangle size. Not a big deal this time, but remember for the future. 
     g.setColor(Color.BLACK);
   }
 
